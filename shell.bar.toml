@@ -1,0 +1,15 @@
+[bar]
+# Alpha companions (where present) range from 0 (invisible) to 1 (opaque).
+# 0.8 lets the top of the Blackwall show through the bar. The tips stay at
+# the bottom of the wallpaper, so this is a step, not glass.
+background       = "#070906"
+background-alpha = 0.8
+text             = "#f25c6b"
+# Modules calling attention to themselves (recording, voxtype, alerts, updates)
+active           = "#ffe14a"
+# Cross-axis size at font base-size 12. size-horizontal is the height of
+# top/bottom bars; size-vertical is the width of left/right bars. With
+# scale-with-font enabled, these grow/shrink with [font] base-size.
+scale-with-font  = true
+size-horizontal  = 26
+size-vertical    = 28
